@@ -14,7 +14,7 @@ public class CaveView {
 
     public void showListOfTreasure (List <Treasure> treasures) {
         for (Treasure element: treasures) {
-            System.out.println(element.toString());
+            System.out.println(element.toString() + element.getClass());
         }
     }
 }
