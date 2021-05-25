@@ -1,13 +1,12 @@
 package by.jonline.module5.task4.entity;
 
-import java.util.ArrayList;
-import java.util.List;
+public class Weapon extends Treasure {
 
-public  class Cave {
-    private static List <Treasure> treasureList = new ArrayList<>();
+    public Weapon() {
+    }
 
-    public static List<Treasure> getTreasureList() {
-        return treasureList;
+    public Weapon(String name, int price) {
+        super(name, price);
     }
 
     @Override
