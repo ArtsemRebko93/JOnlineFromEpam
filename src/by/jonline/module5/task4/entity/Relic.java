@@ -1,6 +1,10 @@
 package by.jonline.module5.task4.entity;
 
-public class Relic extends Treasure {
+import java.io.Serializable;
+
+public class Relic extends Treasure implements Serializable {
+
+    private static final long serialVersionUID = -8851678907973468590L;
 
     public Relic() {
     }

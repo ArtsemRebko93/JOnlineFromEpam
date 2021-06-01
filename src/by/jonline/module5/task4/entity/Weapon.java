@@ -1,6 +1,10 @@
 package by.jonline.module5.task4.entity;
 
-public class Weapon extends Treasure {
+import java.io.Serializable;
+
+public class Weapon extends Treasure implements Serializable {
+
+    private static final long serialVersionUID = -4798119352061941739L;
 
     public Weapon() {
     }

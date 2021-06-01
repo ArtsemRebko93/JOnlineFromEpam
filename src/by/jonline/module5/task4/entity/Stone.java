@@ -1,6 +1,10 @@
 package by.jonline.module5.task4.entity;
 
-public class Stone extends Treasure {
+import java.io.Serializable;
+
+public class Stone extends Treasure implements Serializable {
+
+    private static final long serialVersionUID = 2821259258681014957L;
 
     public Stone() {
     }

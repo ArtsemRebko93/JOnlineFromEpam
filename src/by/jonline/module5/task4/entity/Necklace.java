@@ -1,6 +1,10 @@
 package by.jonline.module5.task4.entity;
 
-public class Necklace extends Treasure {
+import java.io.Serializable;
+
+public class Necklace extends Treasure implements Serializable {
+
+    private static final long serialVersionUID = -5137021683679883815L;
 
     public Necklace() {
     }

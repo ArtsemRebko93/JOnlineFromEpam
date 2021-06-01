@@ -1,6 +1,10 @@
 package by.jonline.module5.task4.entity;
 
-public class Coin extends Treasure {
+import java.io.Serializable;
+
+public class Coin extends Treasure implements Serializable {
+
+    private static final long serialVersionUID = 5445387440087298260L;
 
     public Coin() {
     }
